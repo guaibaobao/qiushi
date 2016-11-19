@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>糗事百科</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+		<script src="js/jquery.validate.js"></script>
+		<script type="text/javascript" src="js/javascript.js"></script>
+		<script type="text/javascript">
+			window.onload = function(){
+
+				var lis = document.getElementsByTagName('li');
+			
+
+				for(var i = 0; i<lis.length; i++){
+
+					lis[i].onclick = function(){
+						for(var j = 0;j<lis.length;j++){
+							lis[j].style.background = "#FFD52B";
+							lis[j].style.border = "none";
+						}
+						this.style.background = "#FFE36F";
+						this.style.height = "78px";
+						this.style.borderBottom = "4px solid #6A3906";
+					}
+				}
+			};
+		</script>
+	</head>
+	<body>
+		<!-- 头部开始 -->
+		<div id="header" class="head">
+			<div class="content-block">
+				<div class="logo" id="hd_logo">
+					<a href=""><h1>糗事百科</h1></a>
+				</div>
+				<div class="menu-bar menu clearfix" id="menu">
+					<li class="active"><a href="#">热门</a></li>
+					<li><a href="#">24小时</a></li>
+					<li><a href="#">热图</a></li>
+					<li><a href="#">文字</a></li>
+					<li><a href="#">穿越</a></li>
+					<li><a href="#">糗图</a></li>
+					<li><a href="#">新鲜</a></li>
+					<li><a href="#">投稿</a></li>
+				</div>
+				<div class="userbar clearfix">
+					<div class="login hidden">
+						<a href="javascript:void(0);" class="username" id="uname" rel="nofollow"></a>
+					</div>
+					<div class="logout">
+						<a href="javascript:void(0);" class="fn-signin-required logintop" id='logintop' rel="nofollow" style="font-size:16.5px;">登录</a>
+					</div>
+					<div id="modal"></div>
+				</div>
+			</div>
+		</div>
+		<!-- 头部结束 -->
+		<!-- 内容开始 -->
+		<div id="content" class="main">
+			<div class="content-block clearfix">
+				<div id="content-left" class="col1">
+					<div class="article block untagged mb15" id="qiushi_tag_117392791">
+						<div class="author clearfix">
+							<a href="javascript:void(0);" rel="nofollow" target="_blank"><img id="jsonimg" src="images/IMG_0848.JPG" alt="" ></a>
+							<a href="javascript:void(0);"><h2 id="jsonh2">杜柯薇</h2></a>
+						</div>
+						<div class="content" id="jsoncontent">
+							大学时，男生寝室来了小偷，被大家发现了，一群男生开始追小偷。。哥哥你慢点跑。。一哥们跑得特快，就在他快要追到时，这哥们往回一看，就剩他一人，吓得他立刻往回跑。
+						</div>
+						<div class="stats">
+							<span class="stats-vote">
+								<i class="number">6603</i>
+								好笑
+							</span>
+							<span class="stats-comments">
+								<span class="dash"> · </span>
+								<a href="javascript:void(0);" data-share="/article/117392791" id="c-117392791" class="qiushi_comments" target="_blank">
+									<i>49</i> 评论
+								</a>
+							</span>
+						</div>
+						<div id="qiushi_counts_117392791" class="stats-buttons bar clearfix">
+							<ul class="clearfix">
+								<li id="vote-up-117392791" class="up">
+									<a href="javascript:void(0);" class="voting" data-article="117392791" id="up-117392791" rel="nofollow">
+										<i></i>
+									</a>
+								</li>
+								<li id="vote-dn-117392791" class="down">
+									<a href="javascript:void(0);" class="voting" data-article="117392791" id="dn-117392791" rel="nofollow">
+										<i></i>
+										<span class="number hidden">-78</span>
+									</a>
+								</li>
+								<li class="comments">
+									<a href="javascript:void(0);" id="c-117396298" class="qiushi_comments">
+										<i></i>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="single-share">
+							<a href="javascript:void(0);" class="share-wechat" data-type="wechat" title="分享到微信">微信</a>
+							<a href="javascript:void(0);" class="share-qq" data-type="qq" title="分享到qq">QQ</a>
+							<a href="javascript:void(0);" class="share-qzone" data-type="qzone" title="分享到QQ空间">QQ空间</a>
+							<a href="javascript:void(0);" class="share-weibo" data-type="weibo" title="分享到微博">微博</a>
+						</div>
+						<div class="single-clear"></div>
+					</div>
+					<div class="article block untagged mb15" id="qiushi_tag_117392791">
+						<div class="author clearfix">
+							<a href="javascript:void(0);" rel="nofollow" target="_blank"><img src="images/IMG_0839.JPG" alt=""></a>
+							<a href="javascript:void(0);"><h2>王媛媛</h2></a>
+						</div>
+						<div class="content">
+							小侄子长得五大三粗的，但是个名副其实的数学学霸，有次很晚了，都快到一点了，我就劝他说：明天再做吧，很晚了赶紧睡吧！小侄子哭丧着说：不行啊，耽误了女同学明天抄，我会被他们掐死的...
+						</div>
+						<div class="stats">
+							<span class="stats-vote">
+								<i class="number">3239</i>
+								好笑
+							</span>
+							<span class="stats-comments">
+								<span class="dash"> · </span>
+								<a href="javascript:void(0);" data-share="/article/117392791" id="c-117392791" class="qiushi_comments" target="_blank">
+									<i>33</i> 评论
+								</a>
+							</span>
+						</div>
+						<div id="qiushi_counts_117392791" class="stats-buttons bar clearfix">
+							<ul class="clearfix">
+								<li id="vote-up-117392791" class="up">
+									<a href="javascript:void(0);" class="voting" data-article="117392791" id="up-117392791" rel="nofollow">
+										<i></i>
+									</a>
+								</li>
+								<li id="vote-dn-117392791" class="down">
+									<a href="javascript:void(0);" class="voting" data-article="117392791" id="dn-117392791" rel="nofollow">
+										<i></i>
+										<span class="number hidden">-78</span>
+									</a>
+								</li>
+								<li class="comments">
+									<a href="javascript:void(0);" id="c-117396298" class="qiushi_comments">
+										<i></i>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="single-share">
+							<a href="javascript:void(0);" class="share-wechat" data-type="wechat" title="分享到微信">微信</a>
+							<a href="javascript:void(0);" class="share-qq" data-type="qq" title="分享到qq">QQ</a>
+							<a href="javascript:void(0);" class="share-qzone" data-type="qzone" title="分享到QQ空间">QQ空间</a>
+							<a href="javascript:void(0);" class="share-weibo" data-type="weibo" title="分享到微博">微博</a>
+						</div>
+						<div class="single-clear"></div>
+					</div>
+					<div class="article block untagged mb15" id="qiushi_tag_117392791">
+						<div class="author clearfix">
+							<a href="javascript:void(0);" rel="nofollow" target="_blank"><img src="images/IMG_0841.JPG" alt=""></a>
+							<a href="javascript:void(0);"><h2>孔文娜</h2></a>
+						</div>
+						<div class="content">
+							一女同事做事很勤快，老板还赏识她，一天老板叫她进办公室，我看着她在办公室小心地连续敲了两下门，然后进去了，经过30分钟后，她衣衫不整地出来了，第二天她成了老板的秘书，公资也升了一半，从这件事我得到启发，进老板办公室，要连续敲两下门，少了或多了都不好，真的。
+						</div>
+						<div class="stats">
+							<span class="stats-vote">
+								<i class="number">2589</i>
+								好笑
+							</span>
+							<span class="stats-comments">
+								<span class="dash"> · </span>
+								<a href="javascript:void(0);" data-share="/article/117392791" id="c-117392791" class="qiushi_comments" target="_blank">
+									<i>40</i> 评论
+								</a>
+							</span>
+						</div>
+						<div id="qiushi_counts_117392791" class="stats-buttons bar clearfix">
+							<ul class="clearfix">
+								<li id="vote-up-117392791" class="up">
+									<a href="javascript:void(0);" class="voting" data-article="117392791" id="up-117392791" rel="nofollow">
+										<i></i>
+									</a>
+								</li>
+								<li id="vote-dn-117392791" class="down">
+									<a href="javascript:void(0);" class="voting" data-article="117392791" id="dn-117392791" rel="nofollow">
+										<i></i>
+										<span class="number hidden">-78</span>
+									</a>
+								</li>
+								<li class="comments">
+									<a href="javascript:void(0);" id="c-117396298" class="qiushi_comments">
+										<i></i>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="single-share">
+							<a href="javascript:void(0);" class="share-wechat" data-type="wechat" title="分享到微信">微信</a>
+							<a href="javascript:void(0);" class="share-qq" data-type="qq" title="分享到qq">QQ</a>
+							<a href="javascript:void(0);" class="share-qzone" data-type="qzone" title="分享到QQ空间">QQ空间</a>
+							<a href="javascript:void(0);" class="share-weibo" data-type="weibo" title="分享到微博">微博</a>
+						</div>
+						<div class="single-clear"></div>
+					</div>
+					<div class="article block untagged mb15" id="qiushi_tag_117392791">
+						<div class="author clearfix">
+							<a href="javascript:void(0);" rel="nofollow" target="_blank"><img src="images/1470318962651.jpg" alt=""></a>
+							<a href=""><h2>张景云</h2></a>
+						</div>
+						<div class="content">
+							今天和老婆一起去看房子，销售员问:是全款还是分期？我说:全款还差一点。销售员问:还差多少？这时，二货媳妇来了一句:还差一个房子的钱……
+						</div>
+						<div class="stats">
+							<span class="stats-vote">
+								<i class="number">3210</i>
+								好笑
+							</span>
+							<span class="stats-comments">
+								<span class="dash"> · </span>
+								<a href="javascript:void(0);" data-share="/article/117392791" id="c-117392791" class="qiushi_comments" target="_blank">
+									<i>56</i> 评论
+								</a>
+							</span>
+						</div>
+						<div id="qiushi_counts_117392791" class="stats-buttons bar clearfix">
+							<ul class="clearfix">
+								<li id="vote-up-117392791" class="up">
+									<a href="javascript:void(0);" class="voting" data-article="117392791" id="up-117392791" rel="nofollow">
+										<i></i>
+									</a>
+								</li>
+								<li id="vote-dn-117392791" class="down">
+									<a href="javascript:void(0);" class="voting" data-article="117392791" id="dn-117392791" rel="nofollow">
+										<i></i>
+										<span class="number hidden">-78</span>
+									</a>
+								</li>
+								<li class="comments">
+									<a href="javascript:void(0);" id="c-117396298" class="qiushi_comments">
+										<i></i>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="single-share">
+							<a href="javascript:void(0);" class="share-wechat" data-type="wechat" title="分享到微信">微信</a>
+							<a href="javascript:void(0);" class="share-qq" data-type="qq" title="分享到qq">QQ</a>
+							<a href="javascript:void(0);" class="share-qzone" data-type="qzone" title="分享到QQ空间">QQ空间</a>
+							<a href="javascript:void(0);" class="share-weibo" data-type="weibo" title="分享到微博">微博</a>
+						</div>
+						<div class="single-clear"></div>
+					</div>
+					<ul class="pagination" id="jsonul">
+						<li>
+							<span class="current">1</span>
+						</li>
+						<li>
+							<a href="javascript:void(0);"><span class="page-numbers">2</span></a>
+						</li>
+						<li>
+							<a href="javascript:void(0);"><span class="page-numbers">3</span></a>
+						</li>
+						<li>
+							<a href="javascript:void(0);"><span class="page-numbers">4</span></a>
+						</li>
+						<li>
+							<span class="dots">…</span>
+						</li>
+						<li>
+							<a href="javascript:void(0);"><span class="page-numbers">35</span></a>
+						</li>
+						<li>
+							<a href="javascript:void(0);"> <span class="next">下一页</span></a>
+						</li>
+					</ul>
+				</div>
+				<div class="col2">
+					<div class="sidebar" id="sidebar">
+						<div class="sidebar-hot clearfix">
+							<h3>糗百爆笑精选</h3>
+							<ul>
+								<li class="item">
+									<a href="javascript:void(0);" title="这是妹子理想的男票" rel="nofollow">
+										<span><img src="images/IMG_0839.JPG" alt=""></span>
+									</a>
+								</li>
+								<li class="item">
+									<a href="javascript:void(0);" title="这是妹子理想的男票" rel="nofollow">
+										<span><img src="images/IMG_0841.JPG" alt=""></span>
+									</a>
+								</li>
+								<li class="item">
+									<a href="javascript:void(0);" title="这是妹子理想的男票" rel="nofollow">
+										<span><img src="images/IMG_0848.JPG" alt=""></span>
+									</a>
+								</li>
+								<li class="item">
+									<a href="javascript:void(0);" title="这是妹子理想的男票" rel="nofollow">
+										<span><img src="images/rpf.jpg" alt=""></span>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="sidebar-hot clearfix">
+							<h3>糗百爆笑精选</h3>
+							<ul>
+								<li class="item">
+									<a href="javascript:void(0);" title="这是妹子理想的男票" rel="nofollow">
+										<span><img src="images/zq.jpg" alt=""></span>
+									</a>
+								</li>
+								<li class="item">
+									<a href="javascript:void(0);" title="这是妹子理想的男票" rel="nofollow">
+										<span><img src="images/cb.jpg" alt=""></span>
+									</a>
+								</li>
+								<li class="item">
+									<a href="javascript:void(0);" title="这是妹子理想的男票" rel="nofollow">
+										<span><img src="images/zxf.JPG" alt=""></span>
+									</a>
+								</li>
+								<li class="item">
+									<a href="javascript:void(0);" title="这是妹子理想的男票" rel="nofollow">
+										<span><img src="images/sch.jpg" alt=""></span>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="sidebar-hot clearfix">
+							<h3>糗百爆笑精选</h3>
+							<ul>
+								<li class="item">
+									<a href="javascript:void(0);" title="这是妹子理想的男票" rel="nofollow">
+										<span><img src="images/cjl.jpg" alt=""></span>
+									</a>
+								</li>
+								<li class="item">
+									<a href="javascript:void(0);" title="这是妹子理想的男票" rel="nofollow">
+										<span><img src="images/shj.jpeg" alt=""></span>
+									</a>
+								</li>
+								<li class="item">
+									<a href="javascript:void(0);" title="这是妹子理想的男票" rel="nofollow">
+										<span><img src="images/app117400874.jpg" alt=""></span>
+									</a>
+								</li>
+								<li class="item">
+									<a href="javascript:void(0);" title="这是妹子理想的男票" rel="nofollow">
+										<span><img src="images/app117399741.jpg" alt=""></span>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 内容结束 -->
+		<!-- 登录部分开始 -->
+		<div class="signin-box" id="login-form">
+			<div class="sigin-left">
+				<div class="signin-account clearfix">
+					<h4 class="social-signin-heading">社交帐号登录</h4>
+					<a rel="nofollow" href="javascript:void(0);" class="social-btn social-wechat">使用 微信 账号</a>
+					<a rel="nofollow" href="javascript:void(0);" class="social-btn social-weibo">使用 微博 账号</a>
+					<a rel="nofollow" href="javascript:void(0);" class="social-btn social-qq">使用 QQ 账号 </a>
+				</div>
+				<div class="signin-form clearfix">
+					<h4 class="social-signin-heading">糗事百科账号登录</h4>
+					<form method="post" action="/session" id="form">
+						<input type="hidden" name="_xsrf" value="" />
+						<div class="signin-section clearfix">
+							<input type="text" class="form-input form-input-first" name="name" placeholder="昵称或邮箱">
+							<input type="password" class="form-input" name="password" placeholder="密码">
+							<input type="checkbox" id="remember_me" name="remember_me" checked="" value="checked" style="display:none">
+						</div>
+						<div class="signin-error" id="signin-error"></div>
+						<button type="submit" id="form-submit" class="form-submit">登录</button>
+					</form>
+				</div>
+				<div class="signin-foot clearfix">
+					<a rel="nofollow" href="javascript:void(0);" class="fetch-password">忘记密码?</a>
+				</div>
+			</div>
+		</div>
+		<!-- 登录部分结束 -->
+	</body>
+</html>
